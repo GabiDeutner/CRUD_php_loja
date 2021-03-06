@@ -18,8 +18,8 @@ $fun_email1=$_POST['fun_email'];
 $fun_salario1=$_POST['fun_salario'];
 
 $inserir = mysql_query("INSERT INTO tb_funcionario 
-          (fun_codigo, fun_nome, fun_endereco, fun_numero, fun_complemento
-          fun_bairro, fun_cidade
+          (fun_codigo, fun_nome, fun_endereco, fun_numero, fun_complemento,
+          fun_bairro, fun_cidade,
           fun_uf, fun_cnpjcpf, fun_rgie, fun_sexo,
           fun_nascimento, fun_telefone,
           for_celular, for_email, fun_salario)
