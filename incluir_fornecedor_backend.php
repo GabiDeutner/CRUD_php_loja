@@ -14,7 +14,7 @@ $for_celular1=$_POST['for_celular'];
 $for_email1=$_POST['for_email'];
 
 $inserir = mysql_query("INSERT INTO tb_fornecedor 
-          (for_codigo, for_endereco, for_numero, for_bairro, for_cidade
+          (for_codigo, for_endereco, for_numero, for_bairro, for_cidade,
           for_uf, for_cnpjcpf, for_rgie, for_telefone,
           for_fax, for_celular, for_email)
            VALUES('$for_codigo1','$for_endereco1',
