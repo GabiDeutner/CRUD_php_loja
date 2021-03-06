@@ -32,8 +32,8 @@ $alterar = mysql_query("UPDATE tb_funcionario
                 fun_sexo = '$fun_sexo1',
                 fun_nascimento = '$fun_nascimento1', 
                 fun_telefone = '$fun_telefone1',
-                for_celular = '$fun_celular1', 
-                for_email = '$fun_email1', 
+                fun_celular = '$fun_celular1', 
+                fun_email = '$fun_email1', 
                 fun_salario = '$fun_salario1'
            WHERE fun_codigo = '$fun_codigo1'") 
 		   or die (mysql_error());
