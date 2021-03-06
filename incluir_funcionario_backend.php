@@ -22,7 +22,7 @@ $inserir = mysql_query("INSERT INTO tb_funcionario
           fun_bairro, fun_cidade,
           fun_uf, fun_cnpjcpf, fun_rgie, fun_sexo,
           fun_nascimento, fun_telefone,
-          for_celular, for_email, fun_salario)
+          fun_celular, fun_email, fun_salario)
            VALUES('$fun_codigo1','$fun_nome1','$fun_endereco1','$fun_numero1',
            '$fun_complemento1','$fun_bairro1', '$fun_cidade1', '$fun_uf1',
             '$fun_cnpjcpf1','$fun_rgie1','$fun_sexo1','$fun_nascimento1','$fun_telefone1',
