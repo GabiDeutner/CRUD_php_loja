@@ -7,7 +7,7 @@ $nf_taxaimpostonf1=$_POST['nf_taxaimpostonf'];
 $nf_valorimposto1=$_POST['nf_valorimposto'];
 
 $alterar = mysql_query("UPDATE tb_notafiscal 
-          (SET nf_valornf = '$nf_valornf1',
+          SET nf_valornf = '$nf_valornf1',
           nf_taxaimpostonf = '$nf_taxaimpostonf1',
           nf_valorimposto = '$nf_valorimposto1'
            WHERE nf_codigo = '$nf_codigo1'")
