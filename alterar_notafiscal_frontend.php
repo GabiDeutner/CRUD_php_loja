@@ -3,7 +3,7 @@
 <form method="post" action="alterar_notafiscal_backend.php"><br>
 <p>
 
-Codigo: <select size="1" name="cr_codigo">
+Codigo: <select size="1" name="nf_codigo">
 
 <?php
 // gera lista de nota fiscal// fazer a conexão
