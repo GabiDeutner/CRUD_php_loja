@@ -28,7 +28,7 @@ $alterar = mysql_query("UPDATE tb_itenscompra
                     itc_valorun = '$itc_valorun1',
                     itc_desc = '$itc_desc1',
                     itc_valortotal = '$itc_valortotal1'
-           WHERE itenscompra_codigo = $itenscompra_codigo1'") 
+           WHERE itenscompra_codigo = '$itenscompra_codigo1'") 
 		   or die (mysql_error());
 mysql_close ($db);
 include "consulta_itenscompra.php";
