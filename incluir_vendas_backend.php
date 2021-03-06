@@ -12,7 +12,7 @@ $inserir = mysql_query("INSERT INTO tb_vendas
           (ven_codigo, fun_codigo, tpg_codigo, nf_codigo, ven_datavenda,
 		  ven_valortotal,ven_observacoes)
            VALUES('$ven_codigo1','$fun_codigo1','$tpg_codigo1',
-		   ,'$nf_codigo1','$ven_datavenda1',
+		   '$nf_codigo1','$ven_datavenda1',
 		   '$ven_valortotal1','$ven_observacoes1')") 
 		   or die (mysql_error());
 mysql_close ($db);
