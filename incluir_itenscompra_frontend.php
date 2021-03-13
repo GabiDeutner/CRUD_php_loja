@@ -103,7 +103,7 @@ Valor Unidade:
 <input type="text" name="itc_valorun"><br>
 <br>
 
-Descrição:
+Desconto:
 <input type="text" name="itc_desc"><br>
 <br>
 
