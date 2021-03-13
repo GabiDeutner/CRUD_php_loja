@@ -1,11 +1,20 @@
+<!-- Inicio Excluir -->
+<center>
+<form method="post" action="excluir_funcionario_backend.php">
+<br> Codigo: <select size="1" name="fun_codigo">
 <?php
-error_reporting(0);
+// gera lista de funcionarioes // fazer a conexão
 include "conexao.php";
-$fun_codigo1=$_POST['fun_codigo'];
-
-$excluir = mysql_query("DELETE FROM tb_funcionario
-			 WHERE fun_codigo = '$fun_codigo1'")
-			or die(mysql_error());
-mysql_close ($db);
-include "consulta_funcionario.php";
+$res = mysql_query ("select * from tb_funcionario");
+while ($registro = mysql_fetch_row ($res))
+{
+$cod=$registro[0];
+echo "<option value=\"$cod\">$cod<option>\n";
+}
 ?>
+</select><br><br>
+
+<input type="submit" name="Submit" value="Excluir">
+</form>
+</center>
+<!-- Fim Excluir -->
