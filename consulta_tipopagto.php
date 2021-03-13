@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 include "conexao.php";
-$result = mysql_query("select * from tb_notafiscal", $db);
+$result = mysql_query("select * from tb_tipopagto", $db);
 echo "<center><table border='1'>
 <tr>
 	<td><h1>Codigo</h1></td>
