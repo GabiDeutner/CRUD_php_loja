@@ -2,6 +2,9 @@ body{ background-color: #E6E6FA;
         overflow-x: scroll;
         overflow-y: hidden;
         white-space: nowrap;
+        float: left;
+        width: 1000px;
+        overflow: auto;
 }
 
 input {
