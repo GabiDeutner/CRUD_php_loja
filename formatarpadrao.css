@@ -1,0 +1,25 @@
+body{ background-color: #E6E6FA;} 
+
+input {
+background-color:#f5f5f5;
+font: 11px georgia, sans-serif;
+color:blue;
+border:2px solid #8A2BE2;
+}
+
+.appearance-select{
+-webkit-appearance: none;  /* Remove estilo padrão do Chrome */   
+-moz-appearance: none; /* Remove estilo padrão do FireFox */   
+appearance: none; /* Remove estilo padrão do FireFox*/   
+background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */   
+background-position: 218px center;  /*Posição da imagem do background*/   
+width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */   
+height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */   
+border:1px solid #ddd;}
+
+.botao {
+background-color:#f5f5f5;
+font: 11px georgia, sans-serif;
+color:blue;
+margin-right: 20px;
+}
