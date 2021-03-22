@@ -1,4 +1,5 @@
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Compras </h1>
 <?php
 error_reporting(0);
 include "conexao.php";
