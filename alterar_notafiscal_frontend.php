@@ -31,7 +31,7 @@ Valor imposto:
 <input type="text" name="nf_valorimposto"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
