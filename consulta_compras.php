@@ -1,9 +1,10 @@
 <?php
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 error_reporting(0);
 include "conexao.php";
 $result = mysql_query("select * from tb_compras", $db);
 echo "<center><table border='1'>
-<tr>
+<tr class="tr_titulo">
 	<td><h1>Codigo</h1></td>
 	<td><h1>Codigo Tipo Pagamento</h1></td>
 	<td><h1>Codigo Fornecedor</h1></td>
