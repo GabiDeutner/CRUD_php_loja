@@ -1,13 +1,14 @@
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <?php
 error_reporting(0);
 include "conexao.php";
 $result = mysql_query("select * from tb_notafiscal", $db);
 echo "<center><table border='1'>
 <tr>
-	<td><h1>Codigo</h1></td>
-	<td><h1>Valor</h1></td>
-	<td><h1>Taxa imposto</h1></td>
-	<td><h1>Valor imposto</h1></td>
+	<td class = 'table_titulo'><h3>Codigo</h3></td>
+	<td class = 'table_titulo'><h3>Valor</h3></td>
+	<td class = 'table_titulo'><h3>Taxa imposto</h3></td>
+	<td class = 'table_titulo'><h3>Valor imposto</h3></td>
 </tr>";
 // Escreve resultado até que não haja mais linhas na tabela
 while($row = mysql_fetch_array($result)) {
