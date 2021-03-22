@@ -5,13 +5,13 @@ include "conexao.php";
 $result = mysql_query("select * from tb_compras", $db);
 echo "<center><table border='1'>
 <tr>
-	<td class = 'table_titulo'><h1>Código</h1></td>
-	<td class = 'table_titulo'><h1>Código tipo de pagamento</h1></td>
-	<td class = 'table_titulo'><h1>Código do fornecedor</h1></td>
-	<td class = 'table_titulo'><h1>Código Nota Fiscal</h1></td>
-	<td class = 'table_titulo'><h1>Data de Compra</h1></td>
-	<td class = 'table_titulo'><h1>Valor Total</h1></td>
-	<td class = 'table_titulo'><h1>Observações</h1></td>
+	<td class = 'table_titulo'><h3>Código</h3></td>
+	<td class = 'table_titulo'><h3>Código tipo de pagamento</h3></td>
+	<td class = 'table_titulo'><h3>Código do fornecedor</h3></td>
+	<td class = 'table_titulo'><h3>Código Nota Fiscal</h3></td>
+	<td class = 'table_titulo'><h3>Data de Compra</h3></td>
+	<td class = 'table_titulo'><h3>Valor Total</h3></td>
+	<td class = 'table_titulo'><h3>Observações</h3></td>
 </tr>";
 // Escreve resultado até que não haja mais linhas na tabela
 while($row = mysql_fetch_array($result)) {
