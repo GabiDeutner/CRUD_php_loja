@@ -1,5 +1,6 @@
 <!-- Inicio Alterar -->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Alterar Contas a Receber </h1>
 <center>
 <form method="post" action="alterar_contareceber_backend.php">
 <br> Codigo: <select size="1" name="cr_codigo">
