@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <?php
 error_reporting(0);
 include "conexao.php";
