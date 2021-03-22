@@ -1,5 +1,6 @@
 <!--Início alterar-->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Alterar Contas a Pagar </h1>
 <center>
 <form method="post" action="alterar_contapagar_backend.php"><br>
     <p>
