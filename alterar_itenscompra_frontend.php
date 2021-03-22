@@ -124,7 +124,7 @@ Valor total:
 <input type="text" name="itc_valortotal"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
