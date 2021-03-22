@@ -1,4 +1,5 @@
 <!--Início Incluir-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="incluir_produtos_backend.php"><br>
 <p>
@@ -45,7 +46,7 @@ IPI:
 <input type="text" name="pro_ipi"><br>
 <br>
 
-<input type="submit" name="Submit" value="Incluir">
+<input type="submit" name="Submit" value="Incluir" class="botao">
 </form>
 </center>
 <!--Fim Incluir-->
