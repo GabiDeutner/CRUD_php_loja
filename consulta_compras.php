@@ -4,7 +4,7 @@ error_reporting(0);
 include "conexao.php";
 $result = mysql_query("select * from tb_compras", $db);
 echo "<center><table border='1'>
-<tr class="tr_titulo">
+<tr>
 	<td><h1>Codigo</h1></td>
 	<td><h1>Codigo Tipo Pagamento</h1></td>
 	<td><h1>Codigo Fornecedor</h1></td>
@@ -15,7 +15,7 @@ echo "<center><table border='1'>
 </tr>";
 // Escreve resultado até que não haja mais linhas na tabela
 while($row = mysql_fetch_array($result)) {
-echo "<tr class = "tr_tabela"><td>".$row["com_codigo"]."</td>
+echo "<tr><td>".$row["com_codigo"]."</td>
           <td>".$row["tpg_codigo"]."</td>
 		  <td>".$row["for_codigo"]."</td>
 		  <td>".$row["nf_codigo"]."<td>
