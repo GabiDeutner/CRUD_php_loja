@@ -43,3 +43,8 @@ table {
     color:black;
     border:1px solid #ddd;
 }
+
+.titulos {
+    font: georgia, sans-serif;
+    color:rgb(61, 5, 61);
+}
