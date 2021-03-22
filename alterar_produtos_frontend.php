@@ -1,4 +1,5 @@
 <!--Início alterar-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="alterar_produtos_backend.php"><br>
 <p>
