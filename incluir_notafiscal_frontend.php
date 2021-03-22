@@ -1,4 +1,5 @@
 <!--Início Incluir-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="incluir_notafiscal_backend.php"><br>
 <p>
@@ -14,7 +15,7 @@ Taxa imposto:
 Valor imposto:
 <input type="text" name="nf_valorimposto"><br>
 <br>
-<input type="submit" name="Submit" value="Incluir">
+<input type="submit" name="Submit" value="Incluir" class="botao">
 </form>
 </center>
 <!--Fim Incluir-->
