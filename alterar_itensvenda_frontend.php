@@ -126,7 +126,7 @@ Valor total:
 <input type="text" name="itv_valortotal"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
