@@ -1,5 +1,6 @@
 <!-- Inicio Excluir -->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Excluir Nota Fiscal </h1>
 <center>
 <form method="post" action="excluir_notafiscal_backend.php">
 <br> Codigo: <select size="1" name="nf_codigo">
