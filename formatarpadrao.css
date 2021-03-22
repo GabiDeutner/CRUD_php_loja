@@ -3,22 +3,19 @@ body{ background-color: #E6E6FA;}
 input {
 background-color:#eeeeee;
 font: 11px georgia, sans-serif;
-color:blue;
+color:black;
 border:2px solid #ddd;
 width: 200px;
-height:20px;
+height:25px;
 }
 
-.appearance-select{
-font: 11px georgia, sans-serif;
--webkit-appearance: none;  /* Remove estilo padrão do Chrome */   
--moz-appearance: none; /* Remove estilo padrão do FireFox */   
-appearance: none; /* Remove estilo padrão do FireFox*/   
-background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */   
-background-position: 218px center;  /*Posição da imagem do background*/   
-width: 200px; /* Tamanho do select, maior que o tamanho da div "div-select" */   
-height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */   
-border:2px solid #ddd;
+select{
+    background-color:#eeeeee;
+    font: 11px georgia, sans-serif;
+    color:black;
+    border:2px solid #ddd;
+    width: 200px;
+    height:25px;
 }
 
 .botao {
@@ -26,7 +23,7 @@ background-color:#eeeeee;
 font: 11px georgia, sans-serif;
 color:black;
 width: 80px;
-height:20px;
+height:25px;
 margin-right: 20px;
 border:2px solid #ddd;
 }
