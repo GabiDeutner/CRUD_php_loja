@@ -66,7 +66,7 @@ E-mail:
     <input type="text" name="for_email" ><br>
     <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
