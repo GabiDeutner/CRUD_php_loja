@@ -17,7 +17,7 @@ while($row = mysql_fetch_array($result)) {
 echo "<tr><td>".$row["ven_codigo"]."</td>
           <td>".$row["fun_codigo"]."</td>
           <td>".$row["tpg_codigo"]."</td> 
-		  <td>".$row["nf_codigo"]."<td>
+		  <td>".$row["nf_codigo"]."</td>
           <td>".$row["ven_datavenda"]."</td>
           <td>".$row["ven_valortotal"]."</td>
           <td>".$row["ven_observacoes"]."</td>
