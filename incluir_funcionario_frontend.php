@@ -1,4 +1,5 @@
 <!--Início Incluir-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="incluir_funcionario_backend.php"><br>
 <p>
@@ -67,7 +68,7 @@ Salario:
 <input type="text" name="fun_salario"><br>
 <br>
 
-<input type="submit" name="Submit" value="Incluir">
+<input type="submit" name="Submit" value="Incluir" class="botao">
 </form>
 </center>
 <!--Fim Incluir-->
