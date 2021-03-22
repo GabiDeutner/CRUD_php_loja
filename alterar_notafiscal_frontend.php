@@ -1,4 +1,5 @@
 <!--Início Alterar-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="alterar_notafiscal_backend.php"><br>
 <p>
