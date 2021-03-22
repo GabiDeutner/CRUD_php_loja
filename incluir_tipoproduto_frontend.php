@@ -12,7 +12,7 @@ Descrição:
 <input type="text" name="tpp_descricao"><br>
 <br>
 
-<input type="submit" name="Submit" value="Incluir">
+<input type="submit" name="Submit" value="Incluir" class="botao">
 </form>
 </center>
 <!--Fim Incluir-->
