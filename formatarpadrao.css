@@ -6,7 +6,7 @@ font: 11px georgia, sans-serif;
 color:blue;
 border:2px solid #ddd;
 width: 200px;
-height:15px;
+height:20px;
 }
 
 .appearance-select{
@@ -17,7 +17,7 @@ appearance: none; /* Remove estilo padrão do FireFox*/
 background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */   
 background-position: 218px center;  /*Posição da imagem do background*/   
 width: 200px; /* Tamanho do select, maior que o tamanho da div "div-select" */   
-height:15px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */   
+height:20px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */   
 border:2px solid #ddd;
 }
 
@@ -26,7 +26,7 @@ background-color:#eeeeee;
 font: 11px georgia, sans-serif;
 color:black;
 width: 80px;
-height:15px;
+height:20px;
 margin-right: 20px;
 border:2px solid #ddd;
 }
