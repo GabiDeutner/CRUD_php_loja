@@ -15,15 +15,15 @@ $cod=$registro[0];
 echo "<option value=\"$cod\">$cod<option>\n";
 }
 ?>
-</select><br><br>
+</select><br>
 
 <br> Valor: 
-<input type="text" name="cr_valorconta">
+<input type="text" name="cr_valorconta"> <br>
 <br> Data vencimento.:  
-<input type="text" name="cr_datavencimento">
+<input type="text" name="cr_datavencimento"> <br>
 <!-- AAAA-MM-DD -->
 <br> Data recebimento:  
-<input type="text" name="cr_datarecebimento">
+<input type="text" name="cr_datarecebimento"> <br>
 <!-- AAAA-MM-DD -->
 
 <br> Codigo Nota Fiscal: <select size="1" name="nf_codigo">
@@ -38,7 +38,7 @@ $cod=$registro[0];
 echo "<option value=\"$cod\">$cod<option>\n";
 }
 ?>
-</select><br><br>
+</select><br>
 <br> Observações:  
 <input type="text" name="cr_observacoes">
 <br><br>
