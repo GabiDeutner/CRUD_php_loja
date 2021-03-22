@@ -1,5 +1,6 @@
 <!--Início Alterar-->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Alterar Nota Fiscal </h1>
 <center>
 <form method="post" action="alterar_notafiscal_backend.php"><br>
 <p>
