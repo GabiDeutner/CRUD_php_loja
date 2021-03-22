@@ -19,11 +19,11 @@ select{
 }
 
 .botao {
-background-color:#1E90FF;
+background-color:#eeeeee;
 font: 13px georgia, sans-serif;
-color:DarkBlue;
+color:#00008B;
 width: 80px;
 height:25px;
 margin-right: 20px;
-border:2px solid #E0FFFF;
+border:2px solid #00008B;
 }
