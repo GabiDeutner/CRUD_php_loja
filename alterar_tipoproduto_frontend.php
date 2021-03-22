@@ -1,4 +1,5 @@
 <!--Início alterar-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="alterar_tipoproduto_backend.php"><br>
 <p>
@@ -21,7 +22,7 @@ Descrição:
 <input type="text" name="tpp_descricao"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
