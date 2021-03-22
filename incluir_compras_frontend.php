@@ -1,5 +1,6 @@
 <!--Início Incluir-->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Incluir Compra </h1>
 <center>
 <form method="post" action="incluir_compras_backend.php"><br>
 <p>
