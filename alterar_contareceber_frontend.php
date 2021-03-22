@@ -17,12 +17,12 @@ echo "<option value=\"$cod\">$cod<option>\n";
 ?>
 </select><br><br>
 
-<br> Valor.:<br>  
+<br> Valor: 
 <input type="text" name="cr_valorconta">
-<br> Data vencimento.:<br>  
+<br> Data vencimento.:  
 <input type="text" name="cr_datavencimento">
 <!-- AAAA-MM-DD -->
-<br> Data recebimento.:<br>  
+<br> Data recebimento:  
 <input type="text" name="cr_datarecebimento">
 <!-- AAAA-MM-DD -->
 
@@ -39,7 +39,7 @@ echo "<option value=\"$cod\">$cod<option>\n";
 }
 ?>
 </select><br><br>
-<br> Observações.:<br>  
+<br> Observações:  
 <input type="text" name="cr_observacoes">
 <br><br>
 <input type="submit" name="Submit" value="Alterar" class="botao">
