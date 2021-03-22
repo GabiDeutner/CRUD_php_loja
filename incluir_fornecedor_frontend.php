@@ -1,4 +1,5 @@
 <!--Início Incluir-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="incluir_fornecedor_backend.php"><br>
 <p>
@@ -55,7 +56,7 @@ E-mail:
 <input type="text" name="for_email"><br>
 <br>
 
-<input type="submit" name="Submit" value="Incluir">
+<input type="submit" name="Submit" value="Incluir" class="botao">
 </form>
 </center>
 <!--Fim Incluir-->
