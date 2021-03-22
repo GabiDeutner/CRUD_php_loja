@@ -30,15 +30,14 @@ border:2px solid #ddd;
 
 table {
     background-color:#eeeeee;
-    font: 12px georgia, sans-serif;
+    font: 14px georgia, sans-serif;
     color:black;
     border:1px solid #ddd;  
 }
 
 .table_titulo{
     background-color:#9370DB;
-    font: 12px georgia, sans-serif;
-    font-weight: bold;
+    font: georgia, sans-serif;
     color:black;
     border:1px solid #ddd;  
 }
