@@ -75,7 +75,7 @@ Valor total:
 Observações:
 <input type="text" name="com_observacoes"><br>
 <br>
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
