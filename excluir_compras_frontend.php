@@ -1,5 +1,6 @@
 <!-- Inicio Excluir -->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Excluir Compra </h1>
 <center>
 <form method="post" action="excluir_compras_backend.php">
 <br> Codigo: <select size="1" name="com_codigo">
