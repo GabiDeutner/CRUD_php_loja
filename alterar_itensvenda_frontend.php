@@ -119,7 +119,7 @@ Valor Unidade:
 <input type="text" name="itv_valorun"><br>
 <br>
 
-Descrição:
+Desconto:
 <input type="text" name="itv_desc"><br>
 <br>
 
