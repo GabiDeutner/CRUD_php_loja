@@ -1,4 +1,5 @@
 <!--Início alterar-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="alterar_vendas_backend.php"><br>
 <p>
@@ -78,7 +79,7 @@ Observações:
 <input type="text" name="ven_observacoes"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
