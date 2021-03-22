@@ -4,7 +4,7 @@
 <form method="post" action="alterar_contapagar_backend.php"><br>
     <p>
 
-Codigo: <select class="appearance-select" size="1" name="cp_codigo">
+Codigo: <select size="1" name="cp_codigo">
 
 <?php
 // gera lista de conta pagar // fazer a conexão
