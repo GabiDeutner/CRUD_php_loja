@@ -1,4 +1,5 @@
 <!--Início alterar-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="alterar_tipopagto_backend.php"><br>
 <p>
@@ -29,7 +30,7 @@ Ativo:
 <input type="text" name="tpg_ativo"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
