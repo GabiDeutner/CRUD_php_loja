@@ -2,7 +2,7 @@ body{ background-color: #E6E6FA;}
 
 input {
 background-color:#eeeeee;
-font: 11px georgia, sans-serif;
+font: 12px georgia, sans-serif;
 color:black;
 border:2px solid #ddd;
 width: 200px;
@@ -11,7 +11,7 @@ height:25px;
 
 select{
     background-color:#eeeeee;
-    font: 11px georgia, sans-serif;
+    font: 12px georgia, sans-serif;
     color:black;
     border:2px solid #ddd;
     width: 200px;
@@ -20,7 +20,7 @@ select{
 
 .botao {
 background-color:#eeeeee;
-font: 11px georgia, sans-serif;
+font: 12px georgia, sans-serif;
 color:black;
 width: 80px;
 height:25px;
