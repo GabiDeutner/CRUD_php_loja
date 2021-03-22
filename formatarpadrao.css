@@ -44,10 +44,5 @@ table {
     background-color:#9370DB;
     font: georgia, sans-serif;
     color:black;
-    border:1px solid #ddd;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;  
+    border:1px solid #ddd; 
 }
