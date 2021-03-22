@@ -1,4 +1,8 @@
-body{ background-color: #E6E6FA;} 
+body{ background-color: #E6E6FA;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+}
 
 input {
 background-color:#eeeeee;
