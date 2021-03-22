@@ -1,22 +1,23 @@
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <?php
 error_reporting(0);
 include "conexao.php";
 $result = mysql_query("select * from tb_fornecedor", $db);
 echo "<center><table border='1'>
 <tr>
-	<td><h1>Codigo</h1></td>
-	<td><h1>Nome</h1></td>
-	<td><h1>Endereco</h1></td>
-	<td><h1>Numero</h1></td>
-    <td><h1>Bairro</h1></td>
-    <td><h1>Cidade</h1></td>
-    <td><h1>UF</h1></td>
-    <td><h1>CNPJCPF</h1></td>
-    <td><h1>RGIE</h1></td>
-    <td><h1>Telefone</h1></td>
-    <td><h1>Fax</h1></td>
-    <td><h1>Celular</h1></td>
-    <td><h1>Email</h1></td>
+	  <td class = 'table_titulo'><h3>Codigo</h3></td>
+	  <td class = 'table_titulo'><h3>Nome</h3></td>
+	  <td class = 'table_titulo'><h3>Endereco</h3></td>
+	  <td class = 'table_titulo'><h3>Numero</h3></td>
+    <td class = 'table_titulo'><h3>Bairro</h3></td>
+    <td class = 'table_titulo'><h3>Cidade</h3></td>
+    <td class = 'table_titulo'><h3>UF</h3></td>
+    <td class = 'table_titulo'><h3>CNPJCPF</h3></td>
+    <td class = 'table_titulo'><h3>RGIE</h3></td>
+    <td class = 'table_titulo'><h3>Telefone</h3></td>
+    <td class = 'table_titulo'><h3>Fax</h3></td>
+    <td class = 'table_titulo'><h3>Celular</h3></td>
+    <td class = 'table_titulo'><h3>Email</h3></td>
 </tr>";
 // Escreve resultado até que não haja mais linhas na tabela
 while($row = mysql_fetch_array($result)) {
