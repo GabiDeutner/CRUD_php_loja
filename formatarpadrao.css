@@ -2,7 +2,7 @@ body{ background-color: #E6E6FA;}
 
 input {
 background-color:#eeeeee;
-font: 20px georgia, sans-serif;
+font: 16px georgia, sans-serif;
 color:blue;
 border:2px solid #ddd;
 width: 250px;
@@ -10,7 +10,7 @@ height:30px;
 }
 
 .appearance-select{
-font: 20px georgia, sans-serif;
+font: 16px georgia, sans-serif;
 -webkit-appearance: none;  /* Remove estilo padrão do Chrome */   
 -moz-appearance: none; /* Remove estilo padrão do FireFox */   
 appearance: none; /* Remove estilo padrão do FireFox*/   
@@ -23,7 +23,7 @@ border:2px solid #ddd;
 
 .botao {
 background-color:#eeeeee;
-font: 20px georgia, sans-serif;
+font: 16px georgia, sans-serif;
 color:black;
 width: 80px;
 height:30px;
