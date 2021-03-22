@@ -41,6 +41,6 @@ echo "<option value=\"$cod\">$cod<option>\n";
 <br> Observações.:<br>  
 <input type="text" name="cr_observacoes">
 <br><br>
-<input type="submit" name="Submit" value="Alterar">
+<input type="submit" name="Submit" value="Alterar" class="botao">
 </form>
 </center>
