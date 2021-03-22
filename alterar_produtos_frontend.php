@@ -56,7 +56,7 @@ IPI:
 <input type="text" name="pro_ipi"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
