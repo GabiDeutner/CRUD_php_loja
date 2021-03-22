@@ -33,11 +33,8 @@ table {
     font: 16px georgia, sans-serif;
     color:black;
     border:1px solid #ddd;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;  
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .table_titulo{
