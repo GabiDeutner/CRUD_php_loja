@@ -1,4 +1,5 @@
 <!--Início Incluir-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="incluir_tipopagto_backend.php"><br>
 <p>
@@ -19,7 +20,7 @@ Ativo:
 <input type="text" name="tpg_ativo"><br>
 <br>
 
-<input type="submit" name="Submit" value="Incluir">
+<input type="submit" name="Submit" value="Incluir" class="botao">
 </form>
 </center>
 <!--Fim Incluir-->
