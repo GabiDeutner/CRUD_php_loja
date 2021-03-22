@@ -4,7 +4,7 @@
 <form method="post" action="alterar_contapagar_backend.php"><br>
     <p>
 
-Codigo: <select size="1" name="cp_codigo">
+Codigo: <select class="appearance-select" size="1" name="cp_codigo">
 
 <?php
 // gera lista de conta pagar // fazer a conexão
@@ -52,7 +52,7 @@ Codigo Nota Fiscal:
 Observações:
 <input type="text" name="cp_observacoes"><br>
 <br>
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
