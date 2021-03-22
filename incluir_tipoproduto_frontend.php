@@ -1,4 +1,5 @@
 <!--Início Incluir-->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="incluir_tipoproduto_backend.php"><br>
 <p>
