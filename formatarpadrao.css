@@ -34,3 +34,11 @@ table {
     color:black;
     border:1px solid #ddd;  
 }
+
+.table_titulo{
+    background-color:#9370DB;
+    font: 12px georgia, sans-serif;
+    font-weight: bold;
+    color:black;
+    border:1px solid #ddd;  
+}
