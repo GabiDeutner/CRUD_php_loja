@@ -78,7 +78,7 @@ Salario:
 <input type="text" name="fun_salario"><br>
 <br>
 
-<input type="submit" name="Submit" value="alterar">
+<input type="submit" name="Submit" value="alterar" class="botao">
 </form>
 </center>
 <!--Fim alterar-->
