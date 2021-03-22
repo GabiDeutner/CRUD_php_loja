@@ -28,12 +28,9 @@ margin-right: 20px;
 border:2px solid #ddd;
 }
 
-.tr_titulo {
-    background: #9370DB;
-
-}
-
-.tr_tabela {
-    background: #ffc;
-
+table {
+    background-color:#eeeeee;
+    font: 12px georgia, sans-serif;
+    color:black;
+    border:1px solid #ddd;  
 }
