@@ -15,6 +15,6 @@ echo "<option value=\"$cod\">$cod<option>\n";
 ?>
 </select><br><br>
 
-<input type="submit" name="Submit" value="Excluir">
+<input type="submit" name="Submit" value="Excluir" class="botao">
 </form>
 </center>
