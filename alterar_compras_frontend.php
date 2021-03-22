@@ -1,5 +1,6 @@
 <!--Início alterar-->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Alterar Compras </h1>
 <center>
 <form method="post" action="alterar_compras_backend.php"><br>
 <p>
