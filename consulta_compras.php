@@ -3,7 +3,7 @@
 error_reporting(0);
 include "conexao.php";
 $result = mysql_query("select * from tb_compras", $db);
-echo "<center><table border='1'>
+echo "<center><table border='1' class = 'table_titulo'>
 <tr>
 	<td><h1>Código</h1></td>
 	<td><h1>Código tipo de pagamento</h1></td>
