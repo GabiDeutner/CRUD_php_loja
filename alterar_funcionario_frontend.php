@@ -5,16 +5,16 @@
 <form method="post" action="alterar_funcionario_backend.php"><br>
 <p>
 
-Codigo: <select size="1" name="fun_codigo">
-
+Codigo:<select size="1" name="fun_codigo">
 <?php
-// gera lista de funcionario // fazer a conexão
+// gera lista funcionarios // fazer a conexão
 include "conexao.php";
 $res = mysql_query ("select * from tb_funcionario");
 while ($registro = mysql_fetch_row ($res))
 {
 $cod=$registro[0];
-echo "<option value=\"$cod\">$cod<option>\n";
+$nome=$registro[1];
+echo "<option value=\"$cod\">$cod - $nome<option>\n";
 }
 ?>
 </select><br><br>
@@ -47,7 +47,7 @@ UF:
 <input type="text" name="fun_uf"><br>
 <br>
 
-CNPJ / CPF:
+CNPJ ou CPF:
 <input type="text" name="fun_cnpjcpf"><br>
 <br>
 
@@ -75,7 +75,7 @@ E-mail:
 <input type="text" name="fun_email"><br>
 <br>
 
-Salario:
+Salário:
 <input type="text" name="fun_salario"><br>
 <br>
 
