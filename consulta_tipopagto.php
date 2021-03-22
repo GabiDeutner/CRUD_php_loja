@@ -1,13 +1,14 @@
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <?php
 error_reporting(0);
 include "conexao.php";
 $result = mysql_query("select * from tb_tipopagto", $db);
 echo "<center><table border='1'>
 <tr>
-	<td><h1>Codigo</h1></td>
-	<td><h1>Descricao</h1></td>
-    <td><h1>Quantidade</h1></td>
-    <td><h1>Ativo</h1></td>
+	<td class = 'table_titulo'><h3>Codigo</h3></td>
+	<td class = 'table_titulo'><h3>Descricao</h3></td>
+    <td class = 'table_titulo'><h3>Quantidade</h3></td>
+    <td class = 'table_titulo'><h3>Ativo</h3></td>
 
 </tr>";
 // Escreve resultado até que não haja mais linhas na tabela
