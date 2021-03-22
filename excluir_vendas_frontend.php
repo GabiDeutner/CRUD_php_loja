@@ -1,4 +1,5 @@
 <!-- Inicio Excluir -->
+<link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
 <center>
 <form method="post" action="excluir_vendas_backend.php">
 <br> Codigo: <select size="1" name="ven_codigo">
@@ -14,7 +15,7 @@ echo "<option value=\"$cod\">$cod<option>\n";
 ?>
 </select><br><br>
 
-<input type="submit" name="Submit" value="Excluir">
+<input type="submit" name="Submit" value="Excluir" class="botao">
 </form>
 </center>
 <!-- Fim Excluir -->
