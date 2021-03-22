@@ -1,5 +1,6 @@
 <!--Início Incluir-->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
+<h1 class="titulos"> Incluir Conta a Receber </h1>
 <center>
 <form method="post" action="incluir_contareceber_backend.php"><br>
     <p>
