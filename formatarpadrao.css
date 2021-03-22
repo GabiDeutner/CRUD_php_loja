@@ -47,4 +47,6 @@ table {
 .titulos {
     font: georgia, sans-serif;
     color:rgb(61, 5, 61);
+    margin-left: auto;
+    margin-right: auto;
 }
