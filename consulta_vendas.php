@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
-<h1 class="titulos"> Consulta de Vendas </h1>
+<h1 class="titulos"> Vendas </h1>
 <?php
 error_reporting(0);
 include "conexao.php";
