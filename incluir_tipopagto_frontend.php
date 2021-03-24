@@ -5,7 +5,7 @@
 <form method="post" action="incluir_tipopagto_backend.php"><br>
 <p>
 
-Codigo:
+Código Tipo de Pagamento:
 <input type="text" name="tpg_codigo" ><br>
 <br>
 
