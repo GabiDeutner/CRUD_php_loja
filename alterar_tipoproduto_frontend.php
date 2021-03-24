@@ -5,7 +5,7 @@
 <form method="post" action="alterar_tipoproduto_backend.php"><br>
 <p>
 
-Codigo: <select size="1" name="tpp_codigo">
+Código Tipo de Produto: <select size="1" name="tpp_codigo">
 
 <?php
 // gera lista de tipo produto // fazer a conexão
