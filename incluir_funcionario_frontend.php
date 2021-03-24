@@ -5,7 +5,7 @@
 <form method="post" action="incluir_funcionario_backend.php"><br>
 <p>
 
-Codigo:
+Código Funcionário:
 <input type="text" name="fun_codigo" ><br>
 <br>
 
@@ -17,7 +17,7 @@ Endereço:
 <input type="text" name="fun_endereco"><br>
 <br>
 
-Numero:
+Número:
 <input type="text" name="fun_numero"><br>
 <br>
 
@@ -65,7 +65,7 @@ E-mail:
 <input type="text" name="fun_email"><br>
 <br>
 
-Salario:
+Salário:
 <input type="text" name="fun_salario"><br>
 <br>
 
