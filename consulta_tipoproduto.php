@@ -6,8 +6,8 @@ include "conexao.php";
 $result = mysql_query("select * from tb_tipoproduto", $db);
 echo "<center><table border='1'>
 <tr>
-	<td class = 'table_titulo'><h3>Codigo</h3></td>
-	<td class = 'table_titulo'><h3>Descricao</h3></td>
+	<td class = 'table_titulo'><h3>Código Tipo de Produto</h3></td>
+	<td class = 'table_titulo'><h3>Descrição</h3></td>
 
 </tr>";
 // Escreve resultado até que não haja mais linhas na tabela
