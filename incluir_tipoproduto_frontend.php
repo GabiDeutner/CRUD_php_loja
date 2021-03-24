@@ -5,7 +5,7 @@
 <form method="post" action="incluir_tipoproduto_backend.php"><br>
 <p>
 
-Codigo:
+Código Tipo de Produto:
 <input type="text" name="tpp_codigo" ><br>
 <br>
 
