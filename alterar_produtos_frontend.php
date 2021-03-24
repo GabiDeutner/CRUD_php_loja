@@ -5,7 +5,7 @@
 <form method="post" action="alterar_produtos_backend.php"><br>
 <p>
 
-Codigo: <select size="1" name="pro_codigo">
+Código Produto: <select size="1" name="pro_codigo">
 
 <?php
 // gera lista de produtos// fazer a conexão
