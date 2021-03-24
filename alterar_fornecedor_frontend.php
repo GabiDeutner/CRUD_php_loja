@@ -5,7 +5,7 @@
 <form method="post" action="alterar_fornecedor_backend.php"><br>
 <p>
 
-Código: <select size="1" name="for_codigo">
+Código do Fornecedor: <select size="1" name="for_codigo">
 
 <?php
 // gera lista de fornecedor // fazer a conexão
