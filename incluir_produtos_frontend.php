@@ -5,7 +5,7 @@
 <form method="post" action="incluir_produtos_backend.php"><br>
 <p>
 
-Codigo:
+Código Produto:
 <input type="text" name="pro_codigo" ><br>
 <br>
 
@@ -13,7 +13,7 @@ Descrição:
 <input type="text" name="pro_descricao"><br>
 <br>
 
-<br> Codigo tipo de produto: <select size="1" name="tpp_codigo">
+<br> Código Tipo de Produto: <select size="1" name="tpp_codigo">
 <?php
 // gera lista dos tipos de produto // fazer a conexão
 include "conexao.php";
@@ -27,11 +27,11 @@ echo "<option value=\"$cod\">$cod - $desc<option>\n";
 ?>
 </select><br><br>
 
-Preço de custo:
+Preço de Custo:
 <input type="text" name="pro_precocusto"><br>
 <br>
 
-Preço de venda:
+Preço de Venda:
 <input type="text" name="pro_precovenda"><br>
 <br>
 
