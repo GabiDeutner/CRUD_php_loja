@@ -3,7 +3,7 @@
 <h1 class="titulos"> Excluir Conta a Receber </h1>
 <center>
 <form method="post" action="excluir_contareceber_backend.php">
-<br> Codigo: <select size="1" name="cr_codigo">
+<br> Código Conta a Receber: <select size="1" name="cr_codigo">
 <?php
 // gera lista de contareceber // fazer a conexão
 include "conexao.php";
