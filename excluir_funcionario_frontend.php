@@ -3,7 +3,7 @@
 <h1 class="titulos"> Excluir Funcionário </h1>
 <center>
 <form method="post" action="excluir_funcionario_backend.php">
-<br> Codigo: <select size="1" name="fun_codigo">
+<br> Código Funcionário: <select size="1" name="fun_codigo">
 <?php
 // gera lista de funcionarioes // fazer a conexão
 include "conexao.php";
