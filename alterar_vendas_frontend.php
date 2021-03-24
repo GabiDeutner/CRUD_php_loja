@@ -6,7 +6,7 @@
 <p>
 
 
-Codigo: <select size="1" name="ven_codigo"">
+Código Venda: <select size="1" name="ven_codigo"">
 
 <?php
 // gera lista de vendas // fazer a conexão
@@ -21,7 +21,7 @@ echo "<option value=\"$cod\">$cod<option>\n";
 </select><br><br>
 
 
-<br> Codigo funcionário: <select size="1" name="fun_codigo">
+<br> Código Funcionário: <select size="1" name="fun_codigo">
 <?php
 // gera lista de funcionarios // fazer a conexão
 include "conexao.php";
@@ -38,7 +38,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 
 
 
-<br> Codigo pagamento: <select size="1" name="tpg_codigo">
+<br> Código Pagamento: <select size="1" name="tpg_codigo">
 <?php
 // gera lista de pagamentos // fazer a conexão
 include "conexao.php";
@@ -54,7 +54,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 
 
 
-Codigo Nota:<select size="1" name="nf_codigo">
+Código Nota:<select size="1" name="nf_codigo">
 <?php
 // gera lista de nfs // fazer a conexão
 include "conexao.php";
