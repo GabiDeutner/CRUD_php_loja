@@ -4,16 +4,16 @@
 <center>
 <form method="post" action="incluir_notafiscal_backend.php"><br>
 <p>
-Codigo:
+Código Nota Fiscal:
 <input type="text" name="nf_codigo" ><br>
 <br>
 Valor:
 <input type="text" name="nf_valornf"><br>
 <br>
-Taxa imposto:
+Taxa Imposto:
 <input type="text" name="nf_taxaimpostonf"><br>
 <br>
-Valor imposto:
+Valor Imposto:
 <input type="text" name="nf_valorimposto"><br>
 <br>
 <input type="submit" name="Submit" value="Incluir" class="botao">
