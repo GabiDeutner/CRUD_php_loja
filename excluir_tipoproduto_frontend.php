@@ -1,9 +1,9 @@
 <!-- Inicio Excluir -->
 <link rel="stylesheet" type="text/css" href="formatarpadrao.css" />
-<h1 class="titulos"> Excluir Tipo Produto </h1>
+<h1 class="titulos"> Excluir Tipo de Produto </h1>
 <center>
 <form method="post" action="excluir_tipoproduto_backend.php">
-<br> Codigo: <select size="1" name="tpp_codigo">
+<br> Código Tipo de Produto: <select size="1" name="tpp_codigo">
 <?php
 // gera lista de tipo produto // fazer a conexão
 include "conexao.php";
