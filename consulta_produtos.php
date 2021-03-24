@@ -6,11 +6,11 @@ include "conexao.php";
 $result = mysql_query("select * from tb_produtos", $db);
 echo "<center><table border='1'>
 <tr>
-	<td class = 'table_titulo'><h3>Codigo</h3></td>
-	<td class = 'table_titulo'><h3>Descricao</h3></td>
-	<td class = 'table_titulo'><h3>Codigo Tipo Produto</h3></td>
-	<td class = 'table_titulo'><h3>Preco Custo</h3></td>
-    <td class = 'table_titulo'><h3>Preco Venda</h3></td>
+	<td class = 'table_titulo'><h3>Código Produto</h3></td>
+	<td class = 'table_titulo'><h3>Descrição</h3></td>
+	<td class = 'table_titulo'><h3>Código Tipo Produto</h3></td>
+	<td class = 'table_titulo'><h3>Preço Custo</h3></td>
+    <td class = 'table_titulo'><h3>Preço Venda</h3></td>
     <td class = 'table_titulo'><h3>Estoque</h3></td>
     <td class = 'table_titulo'><h3>Embalagem</h3></td>
     <td class = 'table_titulo'><h3>IPI</h3></td>
