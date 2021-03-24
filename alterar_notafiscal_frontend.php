@@ -5,7 +5,7 @@
 <form method="post" action="alterar_notafiscal_backend.php"><br>
 <p>
 
-Codigo: <select size="1" name="nf_codigo">
+Código Nota Fiscal: <select size="1" name="nf_codigo">
 
 <?php
 // gera lista de nota fiscal// fazer a conexão
@@ -24,11 +24,11 @@ Valor:
 <input type="text" name="nf_valornf"><br>
 <br>
 
-Taxa imposto:
+Taxa Imposto:
 <input type="text" name="nf_taxaimpostonf"><br>
 <br>
 
-Valor imposto:
+Valor Imposto:
 <input type="text" name="nf_valorimposto"><br>
 <br>
 
