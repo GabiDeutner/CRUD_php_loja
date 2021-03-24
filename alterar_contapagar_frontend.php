@@ -5,7 +5,7 @@
 <form method="post" action="alterar_contapagar_backend.php"><br>
     <p>
 
-Codigo: <select size="1" name="cp_codigo">
+Código Conta a Pagar: <select size="1" name="cp_codigo">
 
 <?php
 // gera lista de conta pagar // fazer a conexão
@@ -33,7 +33,7 @@ Data de Pagamento:
     <input type="text" name="cp_datapagamento"><br>
     <br>
 
-Codigo Nota Fiscal:
+Código Nota Fiscal:
 <select size="1" name="nf_codigo">
 
 <?php
