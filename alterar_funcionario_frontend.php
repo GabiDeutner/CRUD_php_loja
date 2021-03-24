@@ -5,7 +5,7 @@
 <form method="post" action="alterar_funcionario_backend.php"><br>
 <p>
 
-Codigo:<select size="1" name="fun_codigo">
+Código do Funcionário:<select size="1" name="fun_codigo">
 <?php
 // gera lista funcionarios // fazer a conexão
 include "conexao.php";
@@ -27,7 +27,7 @@ Endereço:
 <input type="text" name="fun_endereco"><br>
 <br>
 
-Numero:
+Número:
 <input type="text" name="fun_numero"><br>
 <br>
 
