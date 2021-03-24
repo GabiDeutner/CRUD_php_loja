@@ -3,7 +3,7 @@
 <h1 class="titulos"> Excluir Conta a Pagar </h1>
 <center>
 <form method="post" action="excluir_contapagar_backend.php">
-<br> Codigo: <select size="1" name="cp_codigo">
+<br> Código Conta a Pagar: <select size="1" name="cp_codigo">
 <?php
 // gera lista de contapagar // fazer a conexão
 include "conexao.php";
