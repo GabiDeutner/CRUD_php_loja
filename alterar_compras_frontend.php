@@ -4,7 +4,7 @@
 <center>
 <form method="post" action="alterar_compras_backend.php"><br>
 <p>
-Codigo:  <select size="1" name="com_codigo">
+Código Compra:  <select size="1" name="com_codigo">
 
 <?php
 // gera lista de compras // fazer a conexão
@@ -20,7 +20,7 @@ echo "<option value=\"$cod\">$cod<option>\n";
 
 
 
-<br> Codigo pagamento: <select size="1" name="tpg_codigo">
+<br> Código Pagamento: <select size="1" name="tpg_codigo">
 
 <?php
 // gera lista de cidades // fazer a conexão
@@ -35,7 +35,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 ?>
 </select><br><br>
 
-Codigo fornecedor:<select size="1" name="for_codigo">
+Código Fornecedor:<select size="1" name="for_codigo">
 
 <?php
 // gera lista de cidades // fazer a conexão
@@ -52,7 +52,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 
 
 
-Codigo Nota:<select size="1" name="nf_codigo">
+CÓdigo Nota:<select size="1" name="nf_codigo">
 
 <?php
 // gera lista de cidades // fazer a conexão
