@@ -52,7 +52,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 
 
 
-CÓdigo Nota:<select size="1" name="nf_codigo">
+Código Nota:<select size="1" name="nf_codigo">
 
 <?php
 // gera lista de cidades // fazer a conexão
