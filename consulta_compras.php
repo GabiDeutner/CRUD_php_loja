@@ -6,9 +6,9 @@ include "conexao.php";
 $result = mysql_query("select * from tb_compras", $db);
 echo "<center><table border='1'>
 <tr>
-	<td class = 'table_titulo'><h3>Código</h3></td>
-	<td class = 'table_titulo'><h3>Código tipo de pagamento</h3></td>
-	<td class = 'table_titulo'><h3>Código do fornecedor</h3></td>
+	<td class = 'table_titulo'><h3>Código Compra</h3></td>
+	<td class = 'table_titulo'><h3>Código Tipo de Pagamento</h3></td>
+	<td class = 'table_titulo'><h3>Código do Fornecedor</h3></td>
 	<td class = 'table_titulo'><h3>Código Nota Fiscal</h3></td>
 	<td class = 'table_titulo'><h3>Data de Compra</h3></td>
 	<td class = 'table_titulo'><h3>Valor Total</h3></td>
