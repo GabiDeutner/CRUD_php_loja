@@ -6,10 +6,10 @@ include "conexao.php";
 $result = mysql_query("select * from tb_fornecedor", $db);
 echo "<center><table border='1'>
 <tr>
-	  <td class = 'table_titulo'><h3>Codigo</h3></td>
+	  <td class = 'table_titulo'><h3>Código Fornecedor</h3></td>
 	  <td class = 'table_titulo'><h3>Nome</h3></td>
-	  <td class = 'table_titulo'><h3>Endereco</h3></td>
-	  <td class = 'table_titulo'><h3>Numero</h3></td>
+	  <td class = 'table_titulo'><h3>Endereço</h3></td>
+	  <td class = 'table_titulo'><h3>Número</h3></td>
     <td class = 'table_titulo'><h3>Bairro</h3></td>
     <td class = 'table_titulo'><h3>Cidade</h3></td>
     <td class = 'table_titulo'><h3>UF</h3></td>
@@ -18,7 +18,7 @@ echo "<center><table border='1'>
     <td class = 'table_titulo'><h3>Telefone</h3></td>
     <td class = 'table_titulo'><h3>Fax</h3></td>
     <td class = 'table_titulo'><h3>Celular</h3></td>
-    <td class = 'table_titulo'><h3>Email</h3></td>
+    <td class = 'table_titulo'><h3>E-mail</h3></td>
 </tr>";
 // Escreve resultado até que não haja mais linhas na tabela
 while($row = mysql_fetch_array($result)) {
