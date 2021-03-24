@@ -6,13 +6,13 @@ include "conexao.php";
 $result = mysql_query("select * from tb_itensvenda", $db);
 echo "<center><table border='1'>
 <tr>
-	<td class = 'table_titulo'><h3>Codigo Itens Venda</h3></td>
-    <td class = 'table_titulo'><h3>Codigo Venda</h3></td>
-    <td class = 'table_titulo'><h3>Codigo Produto</h3></td>
-    <td class = 'table_titulo'><h3>Codigo Tipo de Produto</h3></td>
-    <td class = 'table_titulo'><h3>Codigo Nota Fiscal</h3></td>
-    <td class = 'table_titulo'><h3>Codigo Tipo de Pagamento</h3></td>
-    <td class = 'table_titulo'><h3>Codigo Funcionário</h3></td>
+	<td class = 'table_titulo'><h3>Código Item Venda</h3></td>
+    <td class = 'table_titulo'><h3>Código Venda</h3></td>
+    <td class = 'table_titulo'><h3>Código Produto</h3></td>
+    <td class = 'table_titulo'><h3>Código Tipo de Produto</h3></td>
+    <td class = 'table_titulo'><h3>Código Nota Fiscal</h3></td>
+    <td class = 'table_titulo'><h3>Código Tipo de Pagamento</h3></td>
+    <td class = 'table_titulo'><h3>Código Funcionário</h3></td>
     <td class = 'table_titulo'><h3>Embalagem</h3></td>
 	<td class = 'table_titulo'><h3>Quantidade</h3></td>
 	<td class = 'table_titulo'><h3>Valor Unidade</h3></td>
