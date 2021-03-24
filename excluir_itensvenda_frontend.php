@@ -3,7 +3,7 @@
 <h1 class="titulos"> Excluir Itens Venda </h1>
 <center>
 <form method="post" action="excluir_itensvenda_backend.php">
-<br> Codigo: <select size="1" name="itensvenda_codigo">
+<br> Código Item Venda: <select size="1" name="itensvenda_codigo">
 <?php
 // gera lista de cidades // fazer a conexão
 include "conexao.php";
