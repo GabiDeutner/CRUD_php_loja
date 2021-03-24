@@ -6,7 +6,7 @@ include "conexao.php";
 $result = mysql_query("select * from tb_contapagar", $db);
 echo "<center><table border='1'>
 <tr>
-	<td class = 'table_titulo'><h3>Codigo</h3></td>
+	<td class = 'table_titulo'><h3>Código Conta Pagar</h3></td>
 	<td class = 'table_titulo'><h3>Valor Conta</h3></td>
 	<td class = 'table_titulo'><h3>Data Vencimento</h3></td>
 	<td class = 'table_titulo'><h3>Data Pagamento</h3></td>
