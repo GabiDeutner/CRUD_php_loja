@@ -5,7 +5,7 @@
 <form method="post" action="incluir_contapagar_backend.php"><br>
     <p>
 
-Codigo:
+Código Conta a Pagar:
     <input type="text" name="cp_codigo" ><br>
     <br> 
 
