@@ -5,7 +5,7 @@
 <form method="post" action="incluir_fornecedor_backend.php"><br>
 <p>
 
-Codigo:
+Código Fornecedor:
 <input type="text" name="for_codigo" ><br>
 <br>
 
@@ -17,7 +17,7 @@ Endereço:
 <input type="text" name="for_endereco"><br>
 <br>
 
-Numero:
+Número:
 <input type="text" name="for_numero"><br>
 <br>
 
