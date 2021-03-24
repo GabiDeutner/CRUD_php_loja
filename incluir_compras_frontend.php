@@ -4,11 +4,11 @@
 <center>
 <form method="post" action="incluir_compras_backend.php"><br>
 <p>
-Codigo:
+Código Compra:
 <input type="text" name="com_codigo" ><br>
 <br>
 
-<br> Codigo pagamento: <select size="1" name="tpg_codigo">
+<br> Código Pagamento: <select size="1" name="tpg_codigo">
 
 <?php
 // gera lista de cidades // fazer a conexão
@@ -23,7 +23,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 ?>
 </select><br><br>
 
-Codigo fornecedor:<select size="1" name="for_codigo">
+Código Fornecedor:<select size="1" name="for_codigo">
 
 <?php
 // gera lista de cidades // fazer a conexão
@@ -40,7 +40,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 
 
 
-Codigo Nota:<select size="1" name="nf_codigo">
+Código Nota:<select size="1" name="nf_codigo">
 
 <?php
 // gera lista de cidades // fazer a conexão
