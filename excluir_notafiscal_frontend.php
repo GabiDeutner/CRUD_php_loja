@@ -3,7 +3,7 @@
 <h1 class="titulos"> Excluir Nota Fiscal </h1>
 <center>
 <form method="post" action="excluir_notafiscal_backend.php">
-<br> Codigo: <select size="1" name="nf_codigo">
+<br> Código Nota Fiscal: <select size="1" name="nf_codigo">
 <?php
 // gera lista de cidades // fazer a conexão
 include "conexao.php";
