@@ -5,7 +5,7 @@
 <form method="post" action="alterar_tipopagto_backend.php"><br>
 <p>
 
-Codigo: <select size="1" name="tpg_codigo">
+Código Tipo de Pagamento: <select size="1" name="tpg_codigo">
 
 <?php
 // gera lista de tipo pagamento // fazer a conexão
