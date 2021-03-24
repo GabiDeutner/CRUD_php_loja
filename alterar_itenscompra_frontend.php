@@ -5,7 +5,7 @@
 <form method="post" action="alterar_itenscompra_backend.php"><br>
 <p>
 
-Codigo: <select size="1" name="itenscompra_codigo">
+Código Item Compra: <select size="1" name="itenscompra_codigo">
 
 <?php
 // gera lista de itens compra // fazer a conexão
@@ -21,7 +21,7 @@ echo "<option value=\"$cod\">$cod<option>\n";
 
 
 
-<br> Codigo Compras <select size="1" name="com_codigo">
+<br> Código Compras <select size="1" name="com_codigo">
 <?php
 // gera lista de codigo de compra // fazer a conexão
 include "conexao.php";
@@ -35,7 +35,7 @@ echo "<option value=\"$cod\">$cod - $valtot<option>\n";
 ?>
 </select><br><br>
 
-<br> Codigo Produto: <select size="1" name="pro_codigo">
+<br> Código Produto: <select size="1" name="pro_codigo">
 <?php
 // gera lista deos produtos // fazer a conexão
 include "conexao.php";
@@ -49,7 +49,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 ?>
 </select><br><br>
 
-<br> Codigo do tipo de produto: <select size="1" name="tpp_codigo">
+<br> Código do Tipo de Produto: <select size="1" name="tpp_codigo">
 <?php
 // gera lista de tipos de produtos // fazer a conexão
 include "conexao.php";
@@ -63,7 +63,7 @@ echo "<option value=\"$cod\">$cod - $desc<option>\n";
 ?>
 </select><br><br>
 
-<br> Codigo Nota fiscal: <select size="1" name="nf_codigo">
+<br> Código Nota Fiscal: <select size="1" name="nf_codigo">
 <?php
 // gera lista de nota fiscal // fazer a conexão
 include "conexao.php";
@@ -77,7 +77,7 @@ echo "<option value=\"$cod\">$cod - $valor<option>\n";
 ?>
 </select><br><br>
 
-<br> Codigo do Fornecedor: <select size="1" name="for_codigo">
+<br> Código do Fornecedor: <select size="1" name="for_codigo">
 <?php
 // gera lista de fornecedores // fazer a conexão
 include "conexao.php";
@@ -91,7 +91,7 @@ echo "<option value=\"$cod\">$cod - $nome<option>\n";
 ?>
 </select><br><br>
 
-<br> Codigo tipo de pagamento: <select size="1" name="tpg_codigo">
+<br> Código Tipo de Pagamento: <select size="1" name="tpg_codigo">
 <?php
 // gera lista de tipo de pagamento // fazer a conexão
 include "conexao.php";
