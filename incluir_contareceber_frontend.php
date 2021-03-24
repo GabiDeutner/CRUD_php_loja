@@ -5,7 +5,7 @@
 <form method="post" action="incluir_contareceber_backend.php"><br>
     <p>
 
-Codigo:
+Código Conta a Receber:
     <input type="text" name="cr_codigo"><br>
     <br>
 
@@ -13,15 +13,15 @@ Valor Conta:
     <input type="text" name="cr_valorconta"><br>
     <br>
 
-Data de vencimento:
+Data de Vencimento:
     <input type="text" name="cr_datavencimento"><br>
     <br>
 
-Data de recebimento:
+Data de Recebimento:
     <input type="text" name="cr_datarecebimento"><br>
     <br>
 
-Codigo Nota Fiscal:
+Código Nota Fiscal:
     <select size="1" name="nf_codigo">
     <?php
         // gera lista de notas fiscais// fazer a conexão
