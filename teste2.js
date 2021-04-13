@@ -126,18 +126,18 @@ function CriaMenu(descricao,filhos,href)
 var figuras = ['sub-button-tile.gif','sub-buttonOver-tile.gif','sub-button-left.gif','sub-buttonOver-left.gif','sub-button-right.gif','sub-buttonOver-right.gif'];
 
 var op4 = new Array(10); // consultar
-op4[0] = new CriaMenu("Compras",null,"consultar_compras_frontend.php");
-op4[1] = new CriaMenu("Conta a Pagar",null,"consultar_contapagar_frontend.php");
-op4[2] = new CriaMenu("Conta a Receber",null,"consultar_contareceber_frontend.php");
-op4[3] = new CriaMenu("Fornecedor",null,"consultar_fornecedor_frontend.php");
-op4[4] = new CriaMenu("Funcionario",null,"consultar_funcionario_frontend.php");
-op4[5] = new CriaMenu("Itens Compra",null,"consultar_itenscompra_frontend.php");
-op4[6] = new CriaMenu("Itens Venda",null,"consultar_itensvenda_frontend.php");
-op4[7] = new CriaMenu("Nota Fiscal",null,"consultar_notafiscal_frontend.php");
-op4[8] = new CriaMenu("Produtos",null,"consultar_produtos_frontend.php");
-op4[9] = new CriaMenu("Tipo de Pagamento",null,"consultar_tipopagto_frontend.php");
-op4[10] = new CriaMenu("Tipo de Produto",null,"consultar_tipoproduto_frontend.php");
-op4[11] = new CriaMenu("Vendas",null,"consultar_vendas_frontend.php");
+op4[0] = new CriaMenu("Compras",null,"consulta_compras_frontend.php");
+op4[1] = new CriaMenu("Conta a Pagar",null,"consulta_contapagar_frontend.php");
+op4[2] = new CriaMenu("Conta a Receber",null,"consulta_contareceber_frontend.php");
+op4[3] = new CriaMenu("Fornecedor",null,"consulta_fornecedor_frontend.php");
+op4[4] = new CriaMenu("Funcionario",null,"consulta_funcionario_frontend.php");
+op4[5] = new CriaMenu("Itens Compra",null,"consulta_itenscompra_frontend.php");
+op4[6] = new CriaMenu("Itens Venda",null,"consulta_itensvenda_frontend.php");
+op4[7] = new CriaMenu("Nota Fiscal",null,"consulta_notafiscal_frontend.php");
+op4[8] = new CriaMenu("Produtos",null,"consulta_produtos_frontend.php");
+op4[9] = new CriaMenu("Tipo de Pagamento",null,"consulta_tipopagto_frontend.php");
+op4[10] = new CriaMenu("Tipo de Produto",null,"consulta_tipoproduto_frontend.php");
+op4[11] = new CriaMenu("Vendas",null,"consulta_vendas_frontend.php");
 
 
 var op3 = new Array(10); // excluir
