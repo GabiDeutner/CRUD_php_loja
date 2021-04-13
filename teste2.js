@@ -126,18 +126,18 @@ function CriaMenu(descricao,filhos,href)
 var figuras = ['sub-button-tile.gif','sub-buttonOver-tile.gif','sub-button-left.gif','sub-buttonOver-left.gif','sub-button-right.gif','sub-buttonOver-right.gif'];
 
 var op4 = new Array(10); // consultar
-op4[0] = new CriaMenu("Compras",null,"consulta_compras_frontend.php");
-op4[1] = new CriaMenu("Conta a Pagar",null,"consulta_contapagar_frontend.php");
-op4[2] = new CriaMenu("Conta a Receber",null,"consulta_contareceber_frontend.php");
-op4[3] = new CriaMenu("Fornecedor",null,"consulta_fornecedor_frontend.php");
-op4[4] = new CriaMenu("Funcionario",null,"consulta_funcionario_frontend.php");
-op4[5] = new CriaMenu("Itens Compra",null,"consulta_itenscompra_frontend.php");
-op4[6] = new CriaMenu("Itens Venda",null,"consulta_itensvenda_frontend.php");
-op4[7] = new CriaMenu("Nota Fiscal",null,"consulta_notafiscal_frontend.php");
-op4[8] = new CriaMenu("Produtos",null,"consulta_produtos_frontend.php");
-op4[9] = new CriaMenu("Tipo de Pagamento",null,"consulta_tipopagto_frontend.php");
-op4[10] = new CriaMenu("Tipo de Produto",null,"consulta_tipoproduto_frontend.php");
-op4[11] = new CriaMenu("Vendas",null,"consulta_vendas_frontend.php");
+op4[0] = new CriaMenu("Compras",null,"consulta_compras.php");
+op4[1] = new CriaMenu("Conta a Pagar",null,"consulta_contapagar.php");
+op4[2] = new CriaMenu("Conta a Receber",null,"consulta_contareceber.php");
+op4[3] = new CriaMenu("Fornecedor",null,"consulta_fornecedor.php");
+op4[4] = new CriaMenu("Funcionario",null,"consulta_funcionario.php");
+op4[5] = new CriaMenu("Itens Compra",null,"consulta_itenscompra.php");
+op4[6] = new CriaMenu("Itens Venda",null,"consulta_itensvenda.php");
+op4[7] = new CriaMenu("Nota Fiscal",null,"consulta_notafiscal.php");
+op4[8] = new CriaMenu("Produtos",null,"consulta_produtos.php");
+op4[9] = new CriaMenu("Tipo de Pagamento",null,"consulta_tipopagto.php");
+op4[10] = new CriaMenu("Tipo de Produto",null,"consulta_tipoproduto.php");
+op4[11] = new CriaMenu("Vendas",null,"consulta_vendas.php");
 
 
 var op3 = new Array(10); // excluir
